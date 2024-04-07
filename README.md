@@ -1,30 +1,76 @@
-# React + TypeScript + Vite
+# ColorPicker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple color picker application developed using Vite, React, and TypeScript. It utilizes the `react-color-palette` library for creating the color picker interface and the `react-copy-to-clipboard` library for copying colors to the clipboard.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get started with the ColorPicker application, follow the instructions below.
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Before running the application, make sure you have the following installed on your system:
 
-- Configure the top-level `parserOptions` property like this:
+- Node.js (v14.x or higher)
+- npm (v6.x or higher) or yarn (v1.22.x or higher)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Installation
+
+1. Clone this repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/your-username/colorpicker.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd colorpicker
+   ```
+
+3. Install the project dependencies:
+
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
+
+### Running the Application
+
+Once the installation is complete, you can run the ColorPicker application with the following command:
+
+```bash
+npm run dev
+# or
+yarn dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This command starts the development server. You can now view the application by navigating to `http://localhost:3000` in your web browser.
+
+### Building for Production
+
+To build the ColorPicker application for production, run the following command:
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+This command generates optimized production-ready assets in the `dist` directory.
+
+## Usage
+
+The ColorPicker application provides a simple interface for selecting colors. You can click on the color squares to choose a color. The selected color's HEX and RGB values are displayed below the color picker.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to customize this README file further to suit your project's specific needs. Happy coding! 🎨
