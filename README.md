@@ -18,13 +18,13 @@ Before running the application, make sure you have the following installed on yo
 1. Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/your-username/colorpicker.git
+   git clone https://github.com/alikzilla/Color-Palette.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd colorpicker
+   cd Color-Palette
    ```
 
 3. Install the project dependencies:
@@ -45,7 +45,7 @@ npm run dev
 yarn dev
 ```
 
-This command starts the development server. You can now view the application by navigating to `http://localhost:3000` in your web browser.
+This command starts the development server. You can now view the application by navigating to `http://localhost:5173` in your web browser.
 
 ### Building for Production
 
@@ -66,11 +66,3 @@ The ColorPicker application provides a simple interface for selecting colors. Yo
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize this README file further to suit your project's specific needs. Happy coding! 🎨
