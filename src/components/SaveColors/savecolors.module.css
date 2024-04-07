@@ -1,0 +1,56 @@
+.saveColors {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.controls {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  background-color: unset;
+  border: 1px black solid;
+  border-radius: 10px;
+  color: white;
+  transition: 0.3s;
+}
+
+.addButton {
+  background-color: rgb(91, 152, 0);
+}
+
+.removeButton {
+  background-color: red;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.colorBlock {
+  width: 50px;
+  height: 50px;
+  border: 1px black solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.colorsList {
+  max-width: 290px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+}

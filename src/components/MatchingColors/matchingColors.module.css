@@ -1,0 +1,19 @@
+.matchingColors {
+  border-radius: 10px;
+}
+
+.originalColor {
+  width: 400px;
+  height: 115px;
+  border-radius: 10px 10px 0 0;
+}
+
+.matchingColor {
+  cursor: pointer;
+  width: 400px;
+  height: 115px;
+}
+
+.matchingColor:last-child {
+  border-radius: 0 0 10px 10px;
+}

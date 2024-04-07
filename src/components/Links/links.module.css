@@ -1,0 +1,30 @@
+.linksBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.github {
+  background-color: white;
+  border-radius: 50%;
+  padding: 1px;
+}
+
+.link {
+  transition: 0.3s;
+}
+
+.link:hover {
+  transform: translateY(-5px);
+}
